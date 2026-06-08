@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adam Amara | Data Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio d'Adam Amara, Ingenieur d'Etat en Informatique specialise en Big Data, IA et Data Engineering."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Retour en haut">
+        <span class="brand-mark">AA</span>
+        <span>Adam Amara</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#experience">Experience</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Competences</a>
+        <a href="#formation">Formation</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-bg"
+          src="assets/hero-data-engineering.png"
+          alt="Visualisation abstraite de pipelines data et tableaux analytiques"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Data Engineer | Big Data & IA</p>
+            <h1 id="hero-title">Adam Amara</h1>
+            <p class="hero-lead">
+              Ingenieur d'Etat en Informatique, specialise dans la conception de pipelines data,
+              l'automatisation ELT/ETL, le streaming et la mise en production de solutions
+              analytiques et machine learning.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projets">Voir les projets</a>
+              <a class="button secondary" href="mailto:amaramadam123456789@gmail.com">Me contacter</a>
+            </div>
+          </div>
+          <aside class="profile-card" aria-label="Profil rapide">
+            <img class="avatar photo-avatar" src="assets/adam-amara-photo.png" alt="Photo de Adam Amara" />
+            <dl>
+              <div>
+                <dt>Localisation</dt>
+                <dd>Rabat, Maroc</dd>
+              </div>
+              <div>
+                <dt>Disponibilite</dt>
+                <dd>Stage Data Engineering, fev. 2026</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Big Data, IA, Cloud & Data Engineering</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="intro band">
+        <div class="container intro-grid">
+          <article>
+            <p class="section-kicker">Profil</p>
+            <h2>Construire des plateformes data utiles, fiables et mesurables.</h2>
+            <p>
+              Mon parcours combine data engineering, big data, cloud, orchestration et IA. J'aime
+              transformer des donnees dispersees en pipelines propres, dashboards exploitables et
+              modeles deployables.
+            </p>
+          </article>
+          <div class="stats" aria-label="Indicateurs du profil">
+            <div>
+              <strong>2026</strong>
+              <span>Diplome d'ingenieur UIR</span>
+            </div>
+            <div>
+              <strong>4+</strong>
+              <span>Projets data majeurs</span>
+            </div>
+            <div>
+              <strong>Azure</strong>
+              <span>Certification fundamentals</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Experience</p>
+            <h2>Experiences professionnelles</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-date">Fev. 2026 - present</div>
+              <div class="timeline-content">
+                <h3>Stagiaire Data Engineer</h3>
+                <p class="meta">Compagnie Generale Immobiliere (CGI), Rabat</p>
+                <ul>
+                  <li>Developpement d'une plateforme Data Engineering pour centraliser et exploiter les donnees immobilieres.</li>
+                  <li>Mise en place de pipelines ETL qualite pour des donnees propres et automatisees.</li>
+                  <li>Architecture Data Lakehouse pour l'analyse decisionnelle.</li>
+                </ul>
+                <p class="stack">PostgreSQL, Airbyte, MinIO, PySpark, dbt, Airflow, Power BI</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-date">Juin 2025</div>
+              <div class="timeline-content">
+                <h3>Stagiaire Data Engineer Scientist</h3>
+                <p class="meta">MAGRIFLY, Tamesna</p>
+                <ul>
+                  <li>Conception de pipelines d'ingestion et de traitement d'images pour le nettoyage, la transformation et le stockage dans MinIO-S3.</li>
+                  <li>Mise en oeuvre d'un modele CNN de Transfer Learning pour ameliorer la precision de detection.</li>
+                  <li>Comparaison de CNN, PyTorch, TorchVision, Pandas, NumPy et MinIO-S3.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projets" class="section projects-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Projets</p>
+            <h2>Projets selectionnes</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card featured">
+              <div class="project-media two-up" aria-label="Captures du projet d'analyse commerciale">
+                <img
+                  src="assets/project-commercial-pipeline.png"
+                  alt="Architecture du pipeline data commercial"
+                />
+                <img
+                  src="assets/project-commercial-dashboard.png"
+                  alt="Dashboard commercial et indicateurs de vente"
+                />
+              </div>
+              <div class="project-year">2026</div>
+              <h3>Plateforme ETL pour l'Analyse Commerciale</h3>
+              <p class="project-type">Projet Data Engineering orchestre</p>
+              <p>
+                Pipeline automatise de l'ingestion a la visualisation, avec validation et transformation des donnees pour produire des dashboards analytiques.
+              </p>
+              <div class="tags">
+                <span>Airbyte</span><span>dbt</span><span>Great Expectations</span><span>Dagster</span><span>Metabase</span>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-media three-up" aria-label="Captures du projet de streaming des trajets">
+                <img
+                  src="assets/project-trajets-pipeline.png"
+                  alt="Architecture streaming Google Maps, Kafka, Elasticsearch et Kibana"
+                />
+                <img
+                  src="assets/project-trajets-map.png"
+                  alt="Carte Kibana des points de depart des trajets"
+                />
+                <img
+                  src="assets/project-trajets-dashboard.png"
+                  alt="Dashboard Kibana des trajets par destination et duree"
+                />
+              </div>
+              <div class="project-year">2025</div>
+              <h3>Suivi des trajets entre villes francaises</h3>
+              <p class="project-type">Projet Big Data temps reel</p>
+              <p>
+                Pipeline temps reel pour collecter, traiter et visualiser les trajets urbains: frequence, duree et distribution.
+              </p>
+              <div class="tags">
+                <span>Google Maps API</span><span>Kafka</span><span>Elasticsearch</span><span>Kibana</span><span>Docker</span>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-year">2025</div>
+              <h3>Systeme de Detection de Fraude Financiere</h3>
+              <p class="project-type">Machine Learning sur Azure ML</p>
+              <p>
+                Detection de fraude avec donnees desequilibrees, SMOTE, modeles supervises et comparaison experimentale avant deploiement.
+              </p>
+              <div class="tags">
+                <span>XGBoost</span><span>LightGBM</span><span>Random Forest</span><span>Azure ML</span><span>Databricks</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="competences" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Stack technique</p>
+            <h2>Competences</h2>
+          </div>
+          <div class="skills-grid">
+            <article>
+              <h3>Big Data Platforms</h3>
+              <p>Cloudera, HortonWorks, Databricks, Talend</p>
+            </article>
+            <article>
+              <h3>Data Processing</h3>
+              <p>Spark, PySpark, Pandas, SQL, dbt, ETL/ELT</p>
+            </article>
+            <article>
+              <h3>Storage & Data Platforms</h3>
+              <p>Hadoop, MinIO-S3, NoSQL, PostgreSQL</p>
+            </article>
+            <article>
+              <h3>Streaming & Integration</h3>
+              <p>Apache NiFi, Apache Kafka, Airbyte</p>
+            </article>
+            <article>
+              <h3>Programmation</h3>
+              <p>Python, Scala, SQL</p>
+            </article>
+            <article>
+              <h3>Cloud & Monitoring</h3>
+              <p>Azure, Azure ML, Databricks, Power BI, Superset, Metabase, Grafana</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="formation" class="section education-section">
+        <div class="container education-grid">
+          <div>
+            <div class="section-heading">
+              <p class="section-kicker">Formation</p>
+              <h2>Parcours academique</h2>
+            </div>
+            <div class="education-list">
+              <article>
+                <span>Sept. 2021 - Juin 2026</span>
+                <h3>Cycle Ingenieur en Informatique, Big Data & IA</h3>
+                <p>Universite Internationale de Rabat (UIR), Rabat</p>
+              </article>
+              <article>
+                <span>Sept. 2021 - Juin 2023</span>
+                <h3>Classes Preparatoires Integrees</h3>
+                <p>Universite Internationale de Rabat (UIR), Rabat</p>
+              </article>
+              <article>
+                <span>2021</span>
+                <h3>Baccalaureat Scientifique, option Physique-Chimie</h3>
+                <p>Groupe scolaire Lamzibri, Maroc</p>
+              </article>
+            </div>
+          </div>
+          <aside class="cert-card">
+            <p class="section-kicker">Certification</p>
+            <div class="cert-badge" aria-hidden="true">
+              <span>Microsoft</span>
+              <strong>Certified</strong>
+              <em>Fundamentals</em>
+            </div>
+            <h3>Microsoft Certified: Azure Data Fundamentals</h3>
+            <p>Certification active, verifiable en ligne.</p>
+            <div class="cert-actions">
+              <a
+                class="cert-link"
+                href="https://learn.microsoft.com/api/credentials/share/en-us/AdamAMARA-2150/CD610CE15916514B?sharingId=20FDD72E978016ED"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Verifier en ligne
+              </a>
+              <a
+                class="cert-link secondary"
+                href="assets/docs/microsoft-azure-data-fundamentals-adam-amara.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ouvrir le certificat PDF
+              </a>
+            </div>
+            <dl class="cert-details">
+              <div>
+                <dt>Status</dt>
+                <dd><span class="status-pill">Active</span></dd>
+              </div>
+              <div>
+                <dt>Credential ID</dt>
+                <dd>CD610CE15916514B</dd>
+              </div>
+              <div>
+                <dt>Certification number</dt>
+                <dd>EDD37E-U5A337</dd>
+              </div>
+              <div>
+                <dt>Earned on</dt>
+                <dd>May 26, 2026</dd>
+              </div>
+            </dl>
+            <div class="language-list">
+              <span>Arabe: langue maternelle</span>
+              <span>Francais: avance</span>
+              <span>Anglais: avance</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container contact-grid">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Parlons data, pipelines et projets concrets.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:amaramadam123456789@gmail.com">amaramadam123456789@gmail.com</a>
+            <a href="tel:+212689425363">+212 689 42 53 63</a>
+            <span>Rabat, Maroc</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>&copy; 2026 Adam Amara</span>
+      <a href="#top">Retour en haut</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
