@@ -458,7 +458,7 @@ li {
 }
 
 .project-media.three-up {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .project-media img {
@@ -474,13 +474,7 @@ li {
 }
 
 .project-media.three-up img {
-  aspect-ratio: 16 / 8;
-}
-
-.project-media.three-up img:last-child {
-  grid-column: 1 / -1;
-  aspect-ratio: 16 / 6;
-  object-position: center top;
+  aspect-ratio: 16 / 9;
 }
 
 .project-card.featured {
@@ -804,7 +798,6 @@ footer {
   }
 
   .project-media.three-up img:last-child {
-    grid-column: auto;
     aspect-ratio: 16 / 8;
   }
 
